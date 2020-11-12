@@ -32,7 +32,7 @@ namespace CommanderAPI.Tests
             //assert for Build und Test
             Assert.NotNull(response);
 
-            //Assert
+            //Assert only Test Debug ... CI/CD not run DB Daten
            // response.EnsureSuccessStatusCode();
 
             //Assert.NotNull(response.Content);
