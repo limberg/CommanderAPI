@@ -41,9 +41,9 @@ namespace CommanderAPI.Tests
 
             Assert.NotNull(resposeObject);
 
-            var command = resposeObject.FirstOrDefault();
+            //var command = resposeObject.FirstOrDefault();
 
-            Assert.IsType<CommandReadDto>(command);
+            //Assert.IsType<CommandReadDto>(command);
         }
 
     }
